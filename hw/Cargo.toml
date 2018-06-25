@@ -1,0 +1,10 @@
+[package]
+name = "hw"
+version = "0.1.0"
+authors = ["Phillip Cloud <cpcloud@gmail.com>"]
+
+[dependencies]
+
+[profile.release]
+lto = true
+panic = 'abort'
